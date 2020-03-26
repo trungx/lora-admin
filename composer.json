@@ -1,0 +1,26 @@
+{
+    "name": "lora/lora-admin",
+    "description": "Lora administrator ui",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Trung Ta",
+            "email": "hi@trung.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lora\\LoraAdmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+              "providers": [
+                  "Lora\\LoraAdmin\\LoraServiceProvider"
+              ]
+        }
+    }
+}
